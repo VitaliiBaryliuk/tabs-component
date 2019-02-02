@@ -21,4 +21,5 @@ export default class Component {
   emit(eventName, data) {
     this.callbackMap[eventName](data);
   }
+
 }

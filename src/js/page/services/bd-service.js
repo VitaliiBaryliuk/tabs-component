@@ -1,4 +1,3 @@
-
 const tabs = [
   { 
   title: 'Tab 1', 

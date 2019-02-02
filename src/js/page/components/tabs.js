@@ -16,7 +16,6 @@ export default class Tabs extends Component {
     });
   }
 
-
   _render() {
     this._element.innerHTML = `
       <div>

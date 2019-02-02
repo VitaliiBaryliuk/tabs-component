@@ -1,7 +1,6 @@
 import Tabs from './components/tabs.js';
 import bdService from './services/bd-service.js';
 
-
 export default class Page {
   constructor({ element }) {
     this._element = element;
@@ -16,6 +15,5 @@ export default class Page {
       (selectedTabLink) => { 
         this.tabsComponent.setTab(selectedTabLink);
     });
-
   }
 }
